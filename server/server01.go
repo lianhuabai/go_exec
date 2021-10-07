@@ -31,7 +31,7 @@ func getIp(r *http.Request) (string, error) {
 func Healthz(w http.ResponseWriter, r *http.Request)  {
 	ip,_ := getIp(r)
 	logger.Infof("客户端请求ip: %s", ip)
-	logger.Infof("请求返回响应码 %v", 200)
+	logger.Infof("请求返回响应码 %d", 200)
 	fmt.Println(ip)
 	// 将环境变量写入response headers
 	env,bool := tools.GetEnv("VERSION")
