@@ -2,8 +2,8 @@ package server
 
 import (
 	"fmt"
-	"homework/logger"
-	"homework/tools"
+	"httpserver/logger"
+	"httpserver/tools"
 	"net"
 	"net/http"
 	"strings"

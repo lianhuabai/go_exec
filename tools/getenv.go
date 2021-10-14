@@ -1,7 +1,7 @@
 package tools
 
 import (
-	"homework/logger"
+	"httpserver/logger"
 	"os"
 )
 
